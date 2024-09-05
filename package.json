@@ -1,0 +1,27 @@
+{
+  "name": "xcrap-puppeteer-extra-client",
+  "version": "1.0.0",
+  "types": "./dist/index.d.ts",
+  "description": "A client for the `xcrap` framework based on `puppeteer-extra`. Supports any and all available plugins.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Marcuth",
+  "license": "ISC",
+  "devDependencies": {
+    "@mihnea.dev/puppeteer-extra-amazon-captcha": "^1.0.3",
+    "@types/fake-useragent": "^1.0.0",
+    "@types/node": "^22.5.4",
+    "fake-useragent": "^1.0.1",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "xcrap": "^1.9.2"
+  },
+  "dependencies": {
+    "puppeteer": "^23.3.0",
+    "puppeteer-extra": "^3.3.6"
+  }
+}

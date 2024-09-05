@@ -1,0 +1,1 @@
+A client for the [`xcrap`](https://www.npmjs.com/package/xcrap) framework based on [`puppeteer-extra`](https://www.npmjs.com/package/puppeteer-extra). Supports any and all available plugins.
