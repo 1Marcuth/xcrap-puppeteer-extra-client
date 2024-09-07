@@ -1,6 +1,6 @@
 {
   "name": "xcrap-puppeteer-extra-client",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "types": "./dist/index.d.ts",
   "description": "A client for the `xcrap` framework based on `puppeteer-extra`. Supports any and all available plugins.",
   "main": "dist/index.js",
@@ -17,11 +17,11 @@
     "fake-useragent": "^1.0.1",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.4",
-    "xcrap": "^1.9.2"
+    "typescript": "^5.5.4"
   },
   "dependencies": {
     "puppeteer": "^23.3.0",
-    "puppeteer-extra": "^3.3.6"
+    "puppeteer-extra": "^3.3.6",
+    "xcrap": "^1.10.1"
   }
 }
